@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('/designer/baner.jpg');
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+nav {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    padding-right: 10px;
+    margin: 15px;
+    color: #1c1d80;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;  
+    font-weight: 600; 
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.menu_principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_membro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header img {
+    max-width: 200px;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quemsomosnos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+}
+
+.icones h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+
+.icones img {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.nossoobjetivo{
+    display: flex;
+    gap: 50px;
+    padding: 80px;
+    align-items: center;
+}
+
+.textonossoobjetivo h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.textonossoobjetivo p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.slogan {
+    background-image: url('/designer/baner.jpg');   
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 50px 0 50px;
+}
+
+.slogan h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.slogan p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.bibliografia { 
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 150px 50px 150px;
+}
+
+.aline {
+    color: #1c1d80;
+    font-family: "Montserrat", sans-serif;
+}
+
+.aline h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.aline p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.imgquemsomosnos img {
+    height: 500px;
+    width: 250px;
+}
+
+.principaisposts {
+    align-items: center;
+}
+
+.textoprincipaisposts {
+    text-align: center;
+    color: #1c1d80;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textoprincipaisposts h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.textoprincipaisposts h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.post {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.textorodape img {
+    width: 150px;
+}
